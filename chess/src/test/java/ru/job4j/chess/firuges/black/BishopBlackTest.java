@@ -68,7 +68,6 @@ public class BishopBlackTest {
         assertThat(expected, is(false));
     }
 
-
     @Test
     public void copyBishopBlackOnPositionC8() {
         BishopBlack bishopBlack = new BishopBlack(Cell.C8);
